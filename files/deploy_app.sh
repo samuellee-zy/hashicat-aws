@@ -24,19 +24,7 @@ cat << EOM > /var/www/html/index.html
       canvas {
         border: 1px solid white;
       }
-    </style>
-  </head>
 
-  <body>
-    <div id="container">
-      <h1>Terramino</h1>
-      <canvas width="320" height="640" id="game"></canvas>
-    </div>
-    <script>
-      // (Existing JavaScript code)
-    </script>
-
-    <style>
       #container {
         display: flex;
         flex-direction: column;
@@ -52,6 +40,12 @@ cat << EOM > /var/www/html/index.html
         padding-bottom: 20px;
       }
     </style>
+  </head>
+
+  <body>
+    <div id="container">
+      <h1>Terramino</h1>
+    </div>
     <canvas width="320" height="640" id="game"></canvas>
     <script>
       // https://tetris.fandom.com/wiki/Tetris_Guideline
