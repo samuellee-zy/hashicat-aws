@@ -44,7 +44,7 @@ cat << EOM > /var/www/html/index.html
 
   <body>
     <div id="container">
-      <h1>Terramino Demo 2</h1>
+      <h1>Terramino Demo 3</h1>
       <canvas width="320" height="640" id="game"></canvas>
     </div>
     <script>
