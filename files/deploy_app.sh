@@ -28,7 +28,30 @@ cat << EOM > /var/www/html/index.html
   </head>
 
   <body>
-    <h1 style="color: white; text-align: center; margin-bottom: 20px;">Terramino</h1>
+    <div id="container">
+      <h1>Terramino</h1>
+      <canvas width="320" height="640" id="game"></canvas>
+    </div>
+    <script>
+      // (Existing JavaScript code)
+    </script>
+
+    <style>
+      #container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+      }
+
+      h1 {
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 20px;
+      }
+    </style>
     <canvas width="320" height="640" id="game"></canvas>
     <script>
       // https://tetris.fandom.com/wiki/Tetris_Guideline
